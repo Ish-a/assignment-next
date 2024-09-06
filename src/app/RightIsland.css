@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .right-island-outer {
+    padding: 7px;
+    margin: 24px 1072px 0px; /* Adjust margin as needed */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Aligns the menu items to the right end */
+  }
+  
+  .right-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  .right-contact-sales,
+  .right-signin,
+  .right-view-demo {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin: 0; /* Remove margin between buttons */
+    /* border-radius: 4px; */
+    border: 1px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .right-contact-sales:hover,
+  .right-signin:hover,
+  .right-view-demo:hover {
+    color: #007bff;
+    background-color: #f0f0f0; /* Light gray background on hover */
+    border-color: #007bff; /* Border color on hover */
+  }
+  
+  .right-contact-sales:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  /* .right-view-demo:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  } */
+
+  .intro-free-trial-nav{
+    height: 59px;
+    display: inline-block;
+    padding: 4px 30px;
+    border: 2px solid transparent; /* Transparent border for the initial state */
+    background-color: black; /* Button color */
+    color: white; /* Text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+  }
+
+  .intro-free-trial-nav:hover {
+    transform: translate(4px, -4px); /* Elevation effect towards left and bottom */
+    box-shadow: -1px 1px 2px rgba(255, 0, 0, 0.5), /* Red shadow */
+    -2px 2px 6px rgba(0, 0, 255, 0.5), /* Blue shadow */
+    -4px 4px 6px rgba(0, 255, 0, 0.5), /* Green shadow */
+    -7px 7px 9px rgba(255, 255, 0, 0.5); /* Yellow shadow */
+  }
+
+  .intro-free-trial-nav:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  } 
+
+  
